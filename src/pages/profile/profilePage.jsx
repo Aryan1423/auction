@@ -35,7 +35,7 @@ const ProfilePage = () => {
         try {
             axios({
                 method: "post",
-                url: "https://bid-my-ride.vercel.app/user/delete",
+                url: "https://auction-chi-three.vercel.app/user/delete",
                 headers: {
                     "x-access-token": localStorage.getItem("token"),
                 },
