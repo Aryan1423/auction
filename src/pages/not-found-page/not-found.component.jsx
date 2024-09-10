@@ -15,7 +15,7 @@ export default function NotFoundPage() {
     useEffect(() => {
         axios({
             method: "get",
-            url: "https://auction-chi-three.vercel.app/user/checkUser",
+            url: "https://backend-ox4t.onrender.com/user/checkUser",
             headers: {
                 "x-access-token": localStorage.getItem("token"),
             },
