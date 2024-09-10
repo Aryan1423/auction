@@ -30,7 +30,7 @@ export default function RegistrationPage() {
             try {
                 await axios({
                     method: "post",
-                    url: "https://bid-my-ride.vercel.app/user/signup",
+                    url: "https://auction-chi-three.vercel.app/user/signup",
                     data: {
                         firstName: inputs.fname,
                         lastName: inputs.lname,
