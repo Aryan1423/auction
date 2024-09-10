@@ -24,7 +24,7 @@ function LoginPage() {
         try {
             await axios({
                 method: "post",
-                url: "https://auction-chi-three.vercel.app/user/login",
+                url: "https://backend-ox4t.onrender.com/user/login",
                 data: {
                     email: uname.value,
                     password: pass.value,
