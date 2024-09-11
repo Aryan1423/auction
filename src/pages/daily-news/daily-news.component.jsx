@@ -16,7 +16,7 @@ const DailyNewsPage = () => {
 
     async function getNewsData() {
         // setLoading(true);
-        const resp = await axios.get("https://bid-my-ride.vercel.app/news");
+        const resp = await axios.get("https://backend-ox4t.onrender.com/news");
         setNewsData(resp.data);
         // setLoading(false);
     }
