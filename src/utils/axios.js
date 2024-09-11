@@ -7,7 +7,7 @@ import Axios from "axios";
 const token = localStorage.getItem("token");
 
 const axios = Axios.create({
-    baseURL: "https://bid-my-ride.vercel.app",
+    baseURL: "https://backend-ox4t.onrender.com",
     headers: {
         "x-access-token": token,
     },
