@@ -23,7 +23,7 @@ export default function UpdateProfilePage() {
     useEffect(() => {
         axios({
             method: "get",
-            url: "https://bid-my-ride.vercel.app/user/updateprofile",
+            url: "https://backend-ox4t.onrender.com/user/updateprofile",
             headers: {
                 "x-access-token": localStorage.getItem("token"),
             },
@@ -56,7 +56,7 @@ export default function UpdateProfilePage() {
             try {
                 axios({
                     method: "post",
-                    url: "https://bid-my-ride.vercel.app/user/updateprofile",
+                    url: "https://backend-ox4t.onrender.com/user/updateprofile",
                     headers: {
                         "x-access-token": localStorage.getItem("token"),
                     },
